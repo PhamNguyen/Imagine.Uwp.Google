@@ -7,8 +7,8 @@
     <ProjectGuid>{922AFE85-C464-4632-B53F-48C89408284E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>GoogleServices</RootNamespace>
-    <AssemblyName>GoogleServices</AssemblyName>
+    <RootNamespace>Imagine.Uwp.Google</RootNamespace>
+    <AssemblyName>Imagine.Uwp.Google</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetPlatformVersion>10.0.10240.0</TargetPlatformVersion>
@@ -108,7 +108,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Constant.cs" />
-    <Compile Include="GoogleApis.cs" />
+    <Compile Include="GoogleClient.cs" />
     <Compile Include="GoogleScopes.cs" />
     <Compile Include="Models\Profile.cs" />
     <Compile Include="Models\ServiceResponse.cs" />

@@ -1,4 +1,4 @@
-﻿using GoogleServices.Models;
+﻿using Imagine.Uwp.Google.Models;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -8,9 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using Windows.Security.Authentication.Web;
 
-namespace GoogleServices
+namespace Imagine.Uwp.Google
 {
-    public class GoogleApis
+    public class GoogleClient
     {
         public enum GoogleApiResult
         {
@@ -24,10 +24,10 @@ namespace GoogleServices
         }
 
         #region Singleton
-        private static volatile GoogleApis instance;
+        private static volatile GoogleClient instance;
         private static object syncRoot = new Object();
 
-        public static GoogleApis Instance
+        public static GoogleClient Instance
         {
             get
             {
@@ -36,7 +36,7 @@ namespace GoogleServices
                     lock (syncRoot)
                     {
                         if (instance == null)
-                            instance = new GoogleApis();
+                            instance = new GoogleClient();
                     }
                 }
                 return instance;
@@ -62,7 +62,7 @@ namespace GoogleServices
         }
         #endregion
 
-        public GoogleApis()
+        public GoogleClient()
         {
             Logout();
         }

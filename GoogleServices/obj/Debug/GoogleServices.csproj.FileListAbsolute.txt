@@ -1,0 +1,17 @@
+C:\Users\PhamNguyen\Projects\Github\Imagine\Imagine.Uwp.Google\GoogleServices\bin\Debug\GoogleServices.dll
+C:\Users\PhamNguyen\Projects\Github\Imagine\Imagine.Uwp.Google\GoogleServices\bin\Debug\GoogleServices.pdb
+C:\Users\PhamNguyen\Projects\Github\Imagine\Imagine.Uwp.Google\GoogleServices\bin\Debug\GoogleServices.pri
+C:\Users\PhamNguyen\Projects\Github\Imagine\Imagine.Uwp.Google\GoogleServices\obj\Debug\GoogleServices.csprojResolveAssemblyReference.cache
+C:\Users\PhamNguyen\Projects\Github\Imagine\Imagine.Uwp.Google\GoogleServices\obj\Debug\GoogleServices.dll
+C:\Users\PhamNguyen\Projects\Github\Imagine\Imagine.Uwp.Google\GoogleServices\obj\Debug\GoogleServices.pdb
+C:\Users\PhamNguyen\Projects\Github\Imagine\Imagine.Uwp.Google\GoogleServices\obj\Debug\priconfig.xml
+C:\Users\PhamNguyen\Projects\Github\Imagine\Imagine.Uwp.Google\GoogleServices\obj\Debug\priconfig.xml.intermediate
+C:\Users\PhamNguyen\Projects\Github\Imagine\Imagine.Uwp.Google\GoogleServices\obj\Debug\layout.resfiles
+C:\Users\PhamNguyen\Projects\Github\Imagine\Imagine.Uwp.Google\GoogleServices\obj\Debug\layout.resfiles.intermediate
+C:\Users\PhamNguyen\Projects\Github\Imagine\Imagine.Uwp.Google\GoogleServices\obj\Debug\resources.resfiles
+C:\Users\PhamNguyen\Projects\Github\Imagine\Imagine.Uwp.Google\GoogleServices\obj\Debug\resources.resfiles.intermediate
+C:\Users\PhamNguyen\Projects\Github\Imagine\Imagine.Uwp.Google\GoogleServices\obj\Debug\pri.resfiles
+C:\Users\PhamNguyen\Projects\Github\Imagine\Imagine.Uwp.Google\GoogleServices\obj\Debug\pri.resfiles.intermediate
+C:\Users\PhamNguyen\Projects\Github\Imagine\Imagine.Uwp.Google\GoogleServices\obj\Debug\qualifiers.txt
+C:\Users\PhamNguyen\Projects\Github\Imagine\Imagine.Uwp.Google\GoogleServices\obj\Debug\qualifiers.txt.intermediate
+C:\Users\PhamNguyen\Projects\Github\Imagine\Imagine.Uwp.Google\GoogleServices\obj\Debug\MultipleQualifiersPerDimensionFound.txt

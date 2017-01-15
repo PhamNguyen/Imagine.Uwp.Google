@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleServices", "GoogleServices\GoogleServices.csproj", "{922AFE85-C464-4632-B53F-48C89408284E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Imagine.Uwp.Google", "GoogleServices\Imagine.Uwp.Google.csproj", "{922AFE85-C464-4632-B53F-48C89408284E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleServicesTestApp", "GoogleServicesTestApp\GoogleServicesTestApp.csproj", "{4DD6AAA7-3A22-4C23-843A-67DC3AB4B905}"
 EndProject

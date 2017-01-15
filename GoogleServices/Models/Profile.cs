@@ -1,7 +1,7 @@
 ﻿using System;
 using Newtonsoft.Json;
 
-namespace GoogleServices
+namespace Imagine.Uwp.Google
 {
     public class Profile
     {

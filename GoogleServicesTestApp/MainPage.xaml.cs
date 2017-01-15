@@ -33,7 +33,7 @@ namespace GoogleServicesTestApp
             var clientId = "1076108784587-km9dnh2v3b3n5f5hi6p5mjstb7hqsn19.apps.googleusercontent.com";
             var serectKey = "ydQJtfJicoxfh5TF8vpHfcSj";
 
-            var googleServices = GoogleServices.GoogleApis.Instance;
+            var googleServices = Imagine.Uwp.Google.GoogleClient.Instance;
 
             googleServices.SetGoogleAppInfo(clientId, serectKey);
             var result = await googleServices.LoginGoogle();
@@ -42,16 +42,16 @@ namespace GoogleServicesTestApp
 
             switch (result)
             {
-                case GoogleServices.GoogleApis.GoogleApiResult.AuthorizeSuccess:
+                case Imagine.Uwp.Google.GoogleClient.GoogleApiResult.AuthorizeSuccess:
                     dialog = new MessageDialog("Đăng nhập google thành công");
                     break;
-                case GoogleServices.GoogleApis.GoogleApiResult.AuthorizeFailed:
+                case Imagine.Uwp.Google.GoogleClient.GoogleApiResult.AuthorizeFailed:
                     dialog = new MessageDialog("Đăng nhập google không thành công. Thử lại đê cưng");
                     break;
-                case GoogleServices.GoogleApis.GoogleApiResult.LackOfInfo:
+                case Imagine.Uwp.Google.GoogleClient.GoogleApiResult.LackOfInfo:
                     dialog = new MessageDialog("Thiếu thông tin App Google");
                     break;
-                case GoogleServices.GoogleApis.GoogleApiResult.ExceptionError:
+                case Imagine.Uwp.Google.GoogleClient.GoogleApiResult.ExceptionError:
                     dialog = new MessageDialog("Lỗi hệ thống");
                     break;
             }
@@ -66,7 +66,7 @@ namespace GoogleServicesTestApp
 
         private async void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            var googleServices = GoogleServices.GoogleApis.Instance;
+            var googleServices = Imagine.Uwp.Google.GoogleClient.Instance;
 
             var result = await googleServices.LoadUserProfile();
 
@@ -74,19 +74,19 @@ namespace GoogleServicesTestApp
 
             switch (result)
             {
-                case GoogleServices.GoogleApis.GoogleApiResult.NotAuthorize:
+                case Imagine.Uwp.Google.GoogleClient.GoogleApiResult.NotAuthorize:
                     dialog = new MessageDialog("Chưa đăng nhập. Vui lòng đăng nhập!");
                     break;
-                case GoogleServices.GoogleApis.GoogleApiResult.GetUserInfoSuccess:
+                case Imagine.Uwp.Google.GoogleClient.GoogleApiResult.GetUserInfoSuccess:
                     dialog = new MessageDialog("Lấy thông tin thành công!");
                     break;
-                case GoogleServices.GoogleApis.GoogleApiResult.GetUserInfoFailed:
+                case Imagine.Uwp.Google.GoogleClient.GoogleApiResult.GetUserInfoFailed:
                     dialog = new MessageDialog("Lấy thông tin  không thành công. Thử lại đê cưng!");
                     break;
-                case GoogleServices.GoogleApis.GoogleApiResult.LackOfInfo:
+                case Imagine.Uwp.Google.GoogleClient.GoogleApiResult.LackOfInfo:
                     dialog = new MessageDialog("Thiếu thông tin App Google!");
                     break;
-                case GoogleServices.GoogleApis.GoogleApiResult.ExceptionError:
+                case Imagine.Uwp.Google.GoogleClient.GoogleApiResult.ExceptionError:
                     dialog = new MessageDialog("Lỗi hệ thống!");
                     break;
             }

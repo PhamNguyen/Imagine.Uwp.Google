@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GoogleServices
+namespace Imagine.Uwp.Google
 {
     public class Constants
     {

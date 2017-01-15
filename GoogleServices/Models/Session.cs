@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GoogleServices.Models
+namespace Imagine.Uwp.Google.Models
 {
     public class Session
     {

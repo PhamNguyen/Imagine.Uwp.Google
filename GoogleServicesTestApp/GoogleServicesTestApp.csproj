@@ -131,9 +131,9 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\GoogleServices\GoogleServices.csproj">
+    <ProjectReference Include="..\GoogleServices\Imagine.Uwp.Google.csproj">
       <Project>{922afe85-c464-4632-b53f-48c89408284e}</Project>
-      <Name>GoogleServices</Name>
+      <Name>Imagine.Uwp.Google</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">

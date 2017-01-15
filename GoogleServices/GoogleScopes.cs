@@ -1,4 +1,4 @@
-﻿namespace GoogleServices
+﻿namespace Imagine.Uwp.Google
 {
     public static class GoogleScopes
     {
