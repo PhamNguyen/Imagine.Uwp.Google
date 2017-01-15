@@ -1,6 +1,21 @@
-﻿################################################################################
+################################################################################
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
 /GoogleServicesTestApp/obj/x86/Debug
 /GoogleServices/obj/Debug
+GoogleServices/bin/x64/Debug/Imagine.Uwp.Google.pri
+GoogleServices/obj/x64/Debug/Imagine.Uwp.Google.csproj.FileListAbsolute.txt
+GoogleServices/obj/x64/Debug/MultipleQualifiersPerDimensionFound.txt
+GoogleServices/obj/x64/Debug/embed.resfiles
+GoogleServices/obj/x64/Debug/embed.resfiles.intermediate
+GoogleServices/obj/x64/Debug/layout.resfiles
+GoogleServices/obj/x64/Debug/layout.resfiles.intermediate
+GoogleServices/obj/x64/Debug/pri.resfiles
+GoogleServices/obj/x64/Debug/pri.resfiles.intermediate
+GoogleServices/obj/x64/Debug/priconfig.xml
+GoogleServices/obj/x64/Debug/priconfig.xml.intermediate
+GoogleServices/obj/x64/Debug/qualifiers.txt
+GoogleServices/obj/x64/Debug/qualifiers.txt.intermediate
+GoogleServices/obj/x64/Debug/resources.resfiles
+GoogleServices/obj/x64/Debug/resources.resfiles.intermediate
